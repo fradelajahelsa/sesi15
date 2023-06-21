@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan jquery 01</title>
+    <script src="jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    <h3>JUDUL</h3>
+    <div id="pesan">Isi Pesan</div>
+    <div class="pesan">Isi Pesan</div>
+
+    <h2>BTS</h2>
+    <div id="Bangtan">Bangtan untuk army</div>
+    <div class="Bangtan">Bangtan army</div>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script>
+        //document.getElementById().innerHTML = "dsdd";
+        $(function(){
+            $("#pesan").html("Isi yang baru");
+            $(".pesan").html("Isi Class yang Baru");
+            $("h3").html("Belajar JQuery");
+            $("#BTS").html("Bangtan Sonyeondan");
+            $("BTS").html("isi anggota yang baru Bangtan Sonyeondan");
+            $("h2").html("BTS");
+
+        });
+
+    </script>
+</body>
+</html>
